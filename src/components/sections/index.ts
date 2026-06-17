@@ -1,0 +1,12 @@
+export { default as Hero } from './Hero';
+export { default as About } from './About';
+export { default as Experiences } from './Experiences';
+export { default as SignatureLocations } from './SignatureLocations';
+export { default as Gallery } from './Gallery';
+export { default as WhyChoose } from './WhyChoose';
+export { default as Statistics } from './Statistics';
+export { default as ForCreators } from './ForCreators';
+export { default as Testimonials } from './Testimonials';
+export { default as Location } from './Location';
+export { default as FinalCTA } from './FinalCTA';
+export { default as Footer } from './Footer';
