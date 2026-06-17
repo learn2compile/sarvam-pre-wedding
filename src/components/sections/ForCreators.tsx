@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { Camera, Users, Building, Film } from 'lucide-react';
+import gallery4 from '../../assets/gallery-4.jpg';
 
 export default function ForCreators() {
   const scrollToSection = (href: string) => {
@@ -76,7 +77,7 @@ export default function ForCreators() {
           >
             <div className="relative overflow-hidden h-[400px] lg:h-[500px]">
               <img
-                src="/src/assets/gallery-4.jpg"
+                src={gallery4}
                 alt="Creator at Sarvam"
                 className="w-full h-full object-cover"
               />

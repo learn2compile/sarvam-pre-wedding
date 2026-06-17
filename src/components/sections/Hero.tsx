@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { Heart, Shirt, Building, Music } from 'lucide-react';
+import sarvamHero from '../../assets/sarvam-hero.jpg';
 
 export default function Hero() {
   const scrollToSection = (href: string) => {
@@ -24,7 +25,7 @@ export default function Hero() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/src/assets/sarvam-hero.jpg"
+          src={sarvamHero}
           alt="Sarvam - The Venue"
           className="w-full h-full object-cover"
         />

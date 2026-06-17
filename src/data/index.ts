@@ -1,4 +1,15 @@
+import locRoyal from '../assets/loc-royal.jpg';
+import locGarden from '../assets/loc-garden.jpg';
+import locTraditional from '../assets/loc-traditional.jpg';
+import gallery1 from '../assets/gallery-1.jpg';
+import gallery2 from '../assets/gallery-2.jpg';
+import gallery3 from '../assets/gallery-3.jpg';
+import gallery4 from '../assets/gallery-4.jpg';
+import gallery5 from '../assets/gallery-5.jpg';
+import gallery6 from '../assets/gallery-6.jpg';
+
 export const businessInfo = {
+
   name: 'Sarvam – The Venue',
   tagline: "Hyderabad's Largest Pre-Wedding & Creative Shoot Destination",
   address: {
@@ -18,6 +29,7 @@ export const businessInfo = {
 
 export const experiences = [
   {
+
     id: 'pre-wedding',
     title: 'Pre-Wedding Shoots',
     description: 'Capture your love story in its most beautiful frame with our premium pre-wedding setups.',
@@ -57,50 +69,52 @@ export const experiences = [
 
 export const locations = [
   {
+
     id: 'royal',
     title: 'Royal Backdrops',
     description: 'Regal settings that embody timeless elegance and grandeur.',
-    image: '/src/assets/loc-royal.jpg',
+    image: locRoyal,
   },
   {
     id: 'garden',
     title: 'Romantic Gardens',
     description: 'Lush green escapes perfect for dreamy romantic shoots.',
-    image: '/src/assets/loc-garden.jpg',
+    image: locGarden,
   },
   {
     id: 'traditional',
     title: 'Traditional Settings',
     description: 'Authentic Indian backdrops celebrating cultural heritage.',
-    image: '/src/assets/loc-traditional.jpg',
+    image: locTraditional,
   },
   {
     id: 'luxury',
     title: 'Luxury Concepts',
     description: 'Ultra-premium setups for high-end fashion and brand campaigns.',
-    image: '/src/assets/gallery-1.jpg',
+    image: gallery1,
   },
   {
     id: 'nature',
     title: 'Nature Landscapes',
     description: 'Natural beauty meets artistic vision in our outdoor concepts.',
-    image: '/src/assets/gallery-2.jpg',
+    image: gallery2,
   },
   {
     id: 'studio',
     title: 'Creative Studio Concepts',
     description: 'Versatile indoor studios designed for creative excellence.',
-    image: '/src/assets/gallery-3.jpg',
+    image: gallery3,
   },
 ];
 
 export const gallery = [
-  { id: 1, category: 'pre-wedding', image: '/src/assets/gallery-1.jpg' },
-  { id: 2, category: 'fashion', image: '/src/assets/gallery-2.jpg' },
-  { id: 3, category: 'commercial', image: '/src/assets/gallery-3.jpg' },
-  { id: 4, category: 'pre-wedding', image: '/src/assets/gallery-4.jpg' },
-  { id: 5, category: 'brands', image: '/src/assets/gallery-5.jpg' },
-  { id: 6, category: 'creative', image: '/src/assets/gallery-6.jpg' },
+  
+  { id: 1, category: 'pre-wedding', image: gallery1 },
+  { id: 2, category: 'fashion', image: gallery2 },
+  { id: 3, category: 'commercial', image: gallery3 },
+  { id: 4, category: 'pre-wedding', image: gallery4 },
+  { id: 5, category: 'brands', image: gallery5 },
+  { id: 6, category: 'creative', image: gallery6 },
 ];
 
 export const features = [

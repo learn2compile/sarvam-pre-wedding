@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import sarvamAbout from '../../assets/sarvam-about.jpg';
 
 export default function About() {
   return (
@@ -36,7 +37,7 @@ export default function About() {
           >
             <div className="relative overflow-hidden">
               <img
-                src="/src/assets/sarvam-about.jpg"
+                src={sarvamAbout}
                 alt="Sarvam - Luxury Venue"
                 className="w-full h-[400px] lg:h-[500px] object-cover"
               />
